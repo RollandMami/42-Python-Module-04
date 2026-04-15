@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
 # ************************************************************************** #
 #                                                                            #
 #                                                       :::      ::::::::    #
-#    ft_ancient_text.py                               :+:      :+:    :+:    #
+#    ft_ancient_text.py                                :+:     :+:    :+:    #
 #                                                   +:+ +:+         +:+      #
 #    By: mamiandr <mamiandr@student.42antananari  +#+  +:+       +#+         #
 #                                               +#+#+#+#+#+   +#+            #
@@ -28,7 +29,7 @@ def ft_ancient_text(file: str = "") -> None:
             print("RECOVERED DATA: ")
             print(content)
     except FileNotFoundError:
-        print(f"ERROR: Storage vault not found. Run data generator first.")
+        print("ERROR: Storage vault not found. Run data generator first.")
     except ArchiveError as e:
         print(f"ARCHIVE ERROR : {e}")
     except Exception as e:
