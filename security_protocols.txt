@@ -1,1 +1,2 @@
 [CLASSIFIED] New security protocols archived
+sudo apt install
